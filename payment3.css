@@ -121,3 +121,32 @@ header .back-to-home:hover {
     text-decoration-thickness: 2px;
     text-decoration-skip-ink: auto;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, #7f00c6, #5e00a3);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+header .back-to-home {
+    color: #fff;
+    background: #2575fc;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+header .back-to-home:hover {
+    background: #6a11cb;
+}
